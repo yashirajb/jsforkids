@@ -8,16 +8,14 @@ When I was first asked to program an alien shooting game in bootcamp, my mind co
 
 I've learned a thing or two since that day in bootcamp, and I've come to realize that every game has a process that, at its core, repeats again and again. This is the essential game loop, and it's a huge reason why I didn't understand hwo to get beyond the shooting, the players, and the ever-changing score way back when. 
 
-When thinking about the essential game loop in Hangman, I'd say it's this: 
+When thinking about the essential game loop in Hangman, I'd agree it's this: 
 
 1. Take the players guess
 2. Check that the player's guess is a valid letter against the word you've chosen
 3. Keep track of the letters the player has guessed, whether correct or wrong
-4. Show the player their progress. 
+4. Show the player their progress
 
 Repeat
 
 ## Game Design
-
-
 
