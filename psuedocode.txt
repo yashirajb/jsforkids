@@ -1,4 +1,16 @@
 
+Game structure
+
+Choose a random word---happens once (no loop)
+Take the player's guess--happens multiple times (loop)
+Quit the game if the player wants to ---happens multiple times (loop)
+Check that the player's guess is a valid letter--happens multiple times (loop)
+Keep track of letters the player has guessed---happens multiple times(loop)
+Show the player their progress---happens multiple times (loop)
+Finish when the player has guessed the word---happens once (no loop)
+
+
+
 Choose a random word 
 Random word chosen
 While the word has not been guessed {
@@ -17,3 +29,16 @@ While the word has not been guessed {
 }
 
 Congratulate the player on guessing the word 
+
+
+How do we track the state of the word?
+
+We can keep track of the players progress by keeping a collection of 
+blank spcase and filling them in as the player guesses the correct letters. We can do this
+by using an array of blanks for each letter in the word. This will be the answer array and it will 
+be filled with the player's correct guesses as they are made. 
+Each blank will be the string "_". 
+
+I'll also use a variable to keep track of the number of letters that remain to be guessed. 
+For every correctly guessed variable, the variable will decrease by 1. Once the variable hits zero, the player will have won. 
+
